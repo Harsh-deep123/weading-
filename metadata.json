@@ -1,0 +1,6 @@
+{
+  "name": "Aman & Priya — Royal Heritage Rajputana Wedding",
+  "description": "An interactive royal heritage wedding celebration portal for Aman & Priya in Udaipur, featuring ceremonial pavilions, story chronicle, hospitality concierge, and RSVP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

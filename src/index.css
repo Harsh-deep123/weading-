@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-serif-body: "EB Garamond", Georgia, serif;
+  --font-ui: "Manrope", system-ui, sans-serif;
+
+  --color-ivory: #fdf9f1;
+  --color-ivory-low: #f7f3eb;
+  --color-ivory-card: #fff8e7;
+  --color-ivory-high: #ece8e0;
+  --color-maroon: #800020;
+  --color-maroon-deep: #570013;
+  --color-burgundy: #4a0404;
+  --color-gold: #d4af37;
+  --color-gold-antique: #aa771c;
+  --color-champagne: #f3e5ab;
+  --color-rose-soft: #e8a598;
+  --color-rose-blush: #f4c2c2;
+  --color-ink: #1c1c17;
+  --color-ink-warm: #2a0808;
+  --color-ink-muted: #584141;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #fdf9f1;
+    color: #1c1c17;
+    font-family: var(--font-serif-body);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-body {
+  font-family: var(--font-serif-body);
+}
+
+.font-ui {
+  font-family: var(--font-ui);
+}
+
+/* Warm Diya Glow & Raised Tier Elevations */
+.shadow-diya {
+  box-shadow: 0px 4px 20px rgba(128, 0, 32, 0.07), 0px 1px 3px rgba(212, 175, 55, 0.14);
+}
+
+.shadow-diya-hover {
+  box-shadow: 0px 12px 28px rgba(128, 0, 32, 0.12), 0px 2px 10px rgba(212, 175, 55, 0.25);
+}
+
+.shadow-raised-tier {
+  box-shadow: 0px 16px 36px rgba(74, 4, 4, 0.14), 0px 2px 8px rgba(212, 175, 55, 0.22);
+}
+
+.jharokha-arch {
+  border-radius: 140px 140px 4px 4px;
+}
+
+.jharokha-arch-sm {
+  border-radius: 80px 80px 4px 4px;
+}
+
+/* Subtle gold filigree framing */
+.filigree-card {
+  background-color: #fff8e7;
+  border: 1px solid rgba(212, 175, 55, 0.42);
+  box-shadow: 0px 4px 20px rgba(128, 0, 32, 0.07), 0px 1px 3px rgba(212, 175, 55, 0.12);
+}
+
+.filigree-card:hover {
+  border-color: rgba(212, 175, 55, 0.9);
+  box-shadow: 0px 12px 28px rgba(128, 0, 32, 0.11), 0px 2px 10px rgba(212, 175, 55, 0.24);
+}
+
+.gold-bead-line {
+  background-image: radial-gradient(circle, #d4af37 1.25px, transparent 1.25px);
+  background-size: 4px 10px;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+/* Royal Gilded Button Hover Luminescence */
+.btn-royal-gilded {
+  background-color: #800020;
+  color: #fdf9f1;
+  border: 1px solid #d4af37;
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1), background-color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-royal-gilded:hover {
+  background-color: #570013;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.42);
+}
+
+.btn-palace-outline {
+  background-color: rgba(253, 249, 241, 0.9);
+  color: #570013;
+  border: 1px solid #aa771c;
+  box-shadow: inset 0 0 0 3px #fdf9f1, inset 0 0 0 4px rgba(212, 175, 55, 0.45);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1), background-color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-palace-outline:hover {
+  background-color: #fff8e7;
+  box-shadow: inset 0 0 0 3px #fff8e7, inset 0 0 0 4px rgba(212, 175, 55, 0.85), 0 4px 14px rgba(128, 0, 32, 0.1);
+}

@@ -1,0 +1,204 @@
+---
+name: Royal Heritage Rajputana
+colors:
+  surface: '#fdf9f1'
+  surface-dim: '#dddad2'
+  surface-bright: '#fdf9f1'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f7f3eb'
+  surface-container: '#f1ede6'
+  surface-container-high: '#ece8e0'
+  surface-container-highest: '#e6e2da'
+  on-surface: '#1c1c17'
+  on-surface-variant: '#584141'
+  inverse-surface: '#31302b'
+  inverse-on-surface: '#f4f0e8'
+  outline: '#8c7071'
+  outline-variant: '#e0bfbf'
+  surface-tint: '#af2b3e'
+  primary: '#570013'
+  on-primary: '#ffffff'
+  primary-container: '#800020'
+  on-primary-container: '#ff828a'
+  inverse-primary: '#ffb3b5'
+  secondary: '#735c00'
+  on-secondary: '#ffffff'
+  secondary-container: '#fed65b'
+  on-secondary-container: '#745c00'
+  tertiary: '#441b14'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#5f3027'
+  on-tertiary-container: '#d9988b'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdada'
+  primary-fixed-dim: '#ffb3b5'
+  on-primary-fixed: '#40000b'
+  on-primary-fixed-variant: '#8e0f28'
+  secondary-fixed: '#ffe088'
+  secondary-fixed-dim: '#e9c349'
+  on-secondary-fixed: '#241a00'
+  on-secondary-fixed-variant: '#574500'
+  tertiary-fixed: '#ffdad3'
+  tertiary-fixed-dim: '#fbb6a8'
+  on-tertiary-fixed: '#351009'
+  on-tertiary-fixed-variant: '#6a3930'
+  background: '#fdf9f1'
+  on-background: '#1c1c17'
+  surface-variant: '#e6e2da'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '600'
+    lineHeight: 68px
+    letterSpacing: 0.04em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: 0.02em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 50px
+    letterSpacing: 0.02em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: 0.01em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+  body-lg:
+    fontFamily: EB Garamond
+    fontSize: 20px
+    fontWeight: '400'
+    lineHeight: 30px
+  body-md:
+    fontFamily: EB Garamond
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-sm:
+    fontFamily: EB Garamond
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  label-lg:
+    fontFamily: Manrope
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.08em
+  label-md:
+    fontFamily: Manrope
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.1em
+  label-sm:
+    fontFamily: Manrope
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.12em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  gutter-mobile: 1rem
+  margin-mobile: 1.25rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+The design system embodies the grandeur, timeless romance, and intricate architectural splendor of regal Indian palaces (havelis and royal durbars) tailored for Aman & Priya’s wedding celebration. 
+
+The aesthetic synthesizes:
+- **Heritage Regal Opulence:** Inspired by handcrafted jali fretwork, gold leaf embossing, royal court typography, and candlelit courtyard pavilions.
+- **Modern Luxury Tactility:** Balancing traditional heritage elements—such as subtle mandala matrices, lotus medallions, and ornamental arch silhouettes—with airy, contemporary whitespace and precise layout structures.
+- **Emotional Resonance:** Evoking grandeur, sacred celebration, warmth, deep nostalgia, and bespoke hospitality.
+
+## Colors
+The palette evokes royal Indian ceremonies, pure silks, gilded architecture, and floral canopies:
+
+- **Primary (`#800020` - Deep Royal Maroon):** The core heritage tone symbolizing prosperity, devotion, and matrimonial sovereignty. Supported by Velvet Burgundy (`#4A0404`) for high-contrast typographic hierarchy and nighttime ambiance.
+- **Secondary (`#D4AF37` - Royal Gold):** Reflecting gilded foil borders, zardozi embroidery, and illuminated palace arches. Complemented by Champagne Sheen (`#F3E5AB`) for delicate outlines and Antique Bronze Gold (`#AA771C`) for dense interactive states and borders.
+- **Tertiary (`#E8A598` - Soft Rose Pink):** Inspired by fresh rose garlands, gulal, and morning palace marble. Accompanied by Blush Petal (`#F4C2C2`) for muted highlights and gentle status indicators.
+- **Neutral (`#FAF6EE` - Ivory Cream):** Warm, tactile foundation reminiscent of hand-pressed raw parchment and sandalwood-dusted marble. Contrasted by deep, warm text inks (`#2A0808` and `#4A0404`) rather than cold, sterile blacks.
+
+## Typography
+The typography marries royal court dignity with crisp contemporary functional utility:
+
+- **Headlines (Playfair Display):** High-contrast, sophisticated letterforms with delicate serifs capturing the drama of royal proclamations. Italic styles can be selectively introduced for romantic interludes and dates.
+- **Narrative & Body (EB Garamond):** Humanist, classical proportions that ensure long-form wedding event descriptions, blessings, and itinerary notes read with effortless elegance.
+- **Functional UI & Metadata (Manrope):** Geometric, understated sans-serif used in uppercase tracked format for tags, timestamps, RSVP inputs, countdown clocks, and navigation labels to ensure absolute legibility against ornamental flourishes.
+
+## Layout & Spacing
+The layout follows a balanced 12-column fluid grid system on desktop, collapsing to 6 columns on tablet and 4 columns on mobile:
+
+- **Desktop (min-width: 1024px):** Generous 32px (`2rem`) canvas margins and 24px (`1.5rem`) gutters ensure cards, itineraries, and photo vignettes mimic symmetrical royal palace courtyard blueprints.
+- **Tablet (768px - 1023px):** 24px margins with 16px gutters keep ornate double-stroke borders from crowding textual content.
+- **Mobile (under 768px):** 20px (`1.25rem`) side margins preserve breathing room around ornate card containers and decorative framing.
+- **Architectural Rhythm:** Spacing adopts a generous cadence (`space-lg` to `space-xl`) between distinct ceremonial functions (e.g., Sangeet, Mehendi, Pheras) to evoke the slow, stately movement through interconnected palace pavilions.
+
+## Elevation & Depth
+Depth avoids cold, stark drop shadows in favor of warm, illuminated atmospheric layering reminiscent of candlelit oil lamps (*diyas*) and layered fine parchment:
+
+- **Warm Diya Glow:** Low-elevation elements use diffused, tinted ambient shadows: `0px 4px 20px rgba(128, 0, 32, 0.07), 0px 1px 3px rgba(212, 175, 55, 0.12)`.
+- **Raised Tiers:** Floating modals, RSVP trays, and ceremony timelines rise with dual-layer radiance: `0px 16px 36px rgba(74, 4, 4, 0.14), 0px 2px 8px rgba(212, 175, 55, 0.22)`.
+- **Filigree Inset & Ghost Borders:** Surface demarcation relies on hairline metallic borders: `1px solid rgba(212, 175, 55, 0.35)` often paired with a secondary inset hairline at `4px` padding to echo hand-painted Indian miniature artwork mounts.
+
+## Shapes
+The shape language combines the discipline of stone palace masonry with soft arched flourishes:
+
+- **Corner Geometry:** Base corner radius is structured and subtle (`0.25rem` / `roundedness: 1`), honoring formal stationery and traditional invitation folios.
+- **Architectural Jharokha Accents:** Select hero cards, image containers, and section dividers incorporate gentle multi-foil cusped arch profiles (`border-radius: 120px 120px 4px 4px` on top edges).
+- **Medallions:** Circular tags, monogram emblems (A&P), and RSVP badges utilize full circular silhouettes nested within gold wireframes.
+
+## Components
+
+### Buttons
+- **Primary (Royal Gilded Button):** Deep Maroon (`#800020`) solid fill with a 1px inner or perimeter border in Royal Gold (`#D4AF37`). Text is set in Manrope semi-bold uppercase in Ivory Cream (`#FAF6EE`). Subtle gold hover luminescence (`box-shadow: 0 0 16px rgba(212, 175, 55, 0.4)`).
+- **Secondary (Palace Outline):** Transparent ivory background framed with a dual border of Antique Gold (`#AA771C`), with text set in Deep Maroon.
+- **Ghost/Tertiary:** Soft Rose Pink (`#F4C2C2`) text with underline accents resembling calligraphy flourish strokes.
+
+### Cards & Ceremony Pavilions
+- **Ceremony & Event Cards:** Backgrounds of raw Ivory Cream (`#FFF8E7`) framed by a double hairline gold border (`#D4AF37`). Corner brackets feature ornate geometric mandala corner marks.
+- **Interactive States:** On hover, cards subtly elevate with an amber-tinted candlelight glow and a micro-shift of gold border opacity from 40% to 100%.
+
+### Chips & Event Badges
+- Compact indicators for dress codes (e.g., "Traditional Bandhgala", "Pastel Lehengas") and dietary tags.
+- Styled with pill borders using Soft Rose Pink (`#E8A598`) backdrops, Deep Velvet Burgundy (`#4A0404`) text, and 1px Gold (`#D4AF37`) outlines.
+
+### Input Fields & RSVP Form Controls
+- **Inputs:** Clean Ivory (`#FAF6EE`) surface with a bottom-line or full crisp hairline border in `#AA771C`. Floating labels render in Manrope uppercase.
+- **Checkboxes & Radios:** Ornate square and diamond markers; checked states reveal a miniature stylized lotus or gold dot inside a Deep Maroon contour.
+
+### Lists & Timelines
+- Event itineraries (Baraat, Varmala, Pheras) connected by a delicate vertical gold bead-chain line.
+- Time milestones marked with small gold lotus pips or faceted diya icons.
